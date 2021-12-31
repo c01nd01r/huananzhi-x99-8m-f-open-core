@@ -1,4 +1,0 @@
-sudo cp -R /Users/Brumbaer/Library/Developer/Xcode/DerivedData/PMDrvr-equylebmwkdliycyqhsiaridmaun/Build/Products/Debug/PMDrvr.kext /tmp ;
-kextutil -n -print-diagnostics /tmp/PMDrvr.kext
-
-sudo kextload /tmp/PMDrvr.kext
